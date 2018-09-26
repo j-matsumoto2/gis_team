@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!-- The html based on https://github.com/line/line-liff-starter/blob/master/index.html -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<span th:text="${type}">nameの値</span> です。
+<p><span th:text="${category}">nameの値</span> です。</p>
+<p><span th:text="${detail}">nameの値</span> です。</p>
+
+
+
+
+<script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+<script src="liff-starter.js"></script>
+</body>
+</html>
